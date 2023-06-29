@@ -1,4 +1,4 @@
-FROM debian:11-slim
+FROM debian:12-slim
 RUN apt-get update && \
     apt-get --yes install --no-install-recommends apache2 && \
     apt-get clean
